@@ -11,9 +11,4 @@ jobs:
     run-on: ubuntu-latest
     steps:
       - name: Check out the repo
-
-      - name: Log into Docker image
-
-      - name: Extract metadata(tags, labels) for Docker
-
-      - name: Build and push Docker image
+        uses: actions/checkout@v3
